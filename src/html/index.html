@@ -4,45 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Evaluación de Alba Ginés García</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Slab:wght@700&family=Roboto:wght@300;900&family=Rubik:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="background" href="./assets/images/cover.jpeg" />
   </head>
 
   <body>
-    <header class="header">
-      <img class="header__menu-icon" src="./assets/images/ico-menu.svg" alt="Es el icono de menú">
-      <h1>comienzos compartidos</h1>
-      <p>Todo lo que necesitan para volver a cole con ilusión.</p>
-      icono flecha
+    <header class="header" id="start">
+      <a alt="Lleva a otra página" href="https://adalab.es/" target="_blank">
+      <img class="header__menu-icon" src="./assets/images/ico-menu.svg" alt="Es el icono de menú" href="https://adalab.es/">
+      </a>
+      <div class="header__header-content">
+      <h1 class="header__title">comienzos compartidos</h1>
+      <p class="header__text">Todo lo que necesitan para volver a cole con ilusión
+      </p>
+      <a alt="Lleva a la sección vuelta al cole" href="#school">
+      <img class="header__menu-scroll" src="./assets/images/ico-scroll-down.svg" alt="Es un icono que te lleva a la siguiente sección">
+      </a>
+      </div>
     </header>
-    <main>
-      <section>
-        <h2>historias, moda y ropa deportiva</h2>
-        <h3>tu tienda de deporte</h3>
-        <p>El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal. </p>
-        <button type="text">Comprar</button>
-      </section>
-      <section>
-        <h4>¡Prepáralos con tus marcas favoritas!</h4>
-        <h5>vuelta al cole</h5>
-        <article>
-          <img src="" alt="">
+    <main class="main">
+      <article class="main__article">
+        <p class="main__article-greentitle">historias, moda y ropa deportiva</p>
+        <h2 class="main__article-title">tu tienda de deporte</h2>
+        <p class="main__article-text">El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal. </p>
+        <input class="main__article-button" type="button" value="Comprar" />
+      </article>
+      <section class="main__section">
+        <h4 class="main__section-title1">¡Prepáralos con tus marcas favoritas!</h4>
+        <h5 class="main__section-title2" id="school">vuelta al cole</h5>
+        <article class="main__section-article">
+          <img src="./assets/images/lpbts-mod05-img01-desk.png" alt="Es la imagen de mochilas escolares">
           <p>Mochilas escolares</p>
         </article>
-        <article>
-          <img src="" alt="">
+        <article class="main__section-article">
+          <img src="./assets/images/lpbts-mod05-img04-mob.png" alt="Es la imagen de estuches">
           <p>Estuches</p>
         </article>
-        <article>
-          <img src="" alt="">
+        <article class="main__section-article">
+          <img src="./assets/images/lpbts-mod05-img03-mob.png" alt="Es la imagen de bolsas de deporte">
           <p>Bolsas de deporte</p>
-        </article>
-        <button type="text">Empezar ahora</button>
+        </article class="main__section-article">
+        <input class="main__section-button" type="button" value="Empezar ahora" />
       </section>
     </main>
-    <footer>
-      icono flecha
+    <footer class="footer">
+      <a alt="Lleva a la sección vuelta al cole" href="#start">
+        <img class="footer__arrow" src="./assets/images/ico-arrow.svg" alt="Es un icono que te lleva al inicio de la página">
+        </a>
       <nav>
         <ul>
           <li>zapatillas</li>
