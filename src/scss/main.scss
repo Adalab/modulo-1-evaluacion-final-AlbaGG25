@@ -178,11 +178,56 @@ html {
 
 .footer {
   background-color: #4a4a4a;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+.footer__nav {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  text-align: center;
+  color: white; 
+  text-transform: uppercase;
 }
 
 .footer__arrow {
-  width: 2rem;
-  height: 2.4rem; 
+  width: 4rem;
+  height: 4rem; 
   background-color: white;
-  border-radius:50%;
+  border-radius: 70%;
+  padding: 0.5rem; 
+  transform: translateX(85%) translateY(-30%);
+}
+
+.footer__products {
+  width: 10.4rem;
+  height: 14rem; 
+  list-style: none;
+  margin-top: 4rem;
+  margin-bottom: 3rem; 
+}
+
+.footer__social {
+  width: 10.4rem;
+  height: 8.4rem; 
+  list-style: none;
+  margin-bottom: 3rem; 
+}
+
+.footer__copy {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  text-align: center;
+  color: white; 
+  margin-bottom: 3.3rem; 
+}
+
+.footer__icon {
+  color: #6c933e;
 }
