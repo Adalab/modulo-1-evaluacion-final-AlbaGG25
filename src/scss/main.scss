@@ -60,6 +60,7 @@ html {
     font-family: "Roboto Slab";
     font-size: 3rem;
     line-height: 5rem;
+    word-spacing: 40rem;
 }
 
 .header__text{
@@ -216,6 +217,11 @@ html {
   height: 8.4rem; 
   list-style: none;
   margin-bottom: 3rem; 
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white; 
 }
 
 .footer__copy {
