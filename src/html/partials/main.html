@@ -1,40 +1,35 @@
-<main class="page__main">
-  <h2>Este es el starter kit de Adalab</h2>
-  <p>Lo usamos para aprender:</p>
-  <ul class="main__list">
-    <li>Sass</li>
-    <li>HTML partials</li>
-    <li>Gulp</li>
-    <li>y muchas cosas más</li>
-  </ul>
-  <p>Si quieres saber cúales son las rutas correctas para:</p>
-  <ul class="main__list">
-    <li>
-      una <code class="code">&lt;img /&gt;</code> mira el fichero
-      <code class="code">./src/html/partials/header.html</code>.
-    </li>
-    <li>
-      y para un <code class="code">background-image</code> mira el fichero
-      <code class="code">./src/html/scss/layout/_page.scss</code>.
-    </li>
-  </ul>
-  <p>
-    Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-    <code class="code">./src/html/index.html</code> y
-    <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-    enlaces:
-  </p>
-  <ul class="main__list">
-    <li>
-      <include
-        src="./link.html"
-        aClass="link__adalab"
-        text="Adalab"
-        url="https://adalab.es"
-      ></include>
-    </li>
-    <li>
-      <include src="./link.html" text="Más info del starter kit" url="./more-info.html"></include>
-    </li>
-  </ul>
+<main>
+<section>
+  <article class="main__article">
+    <p class="main__article--greentitle">historias, moda y ropa deportiva</p>
+    <h2 class="main__article--title">tu tienda de deporte</h2>
+    <p class="main__article--text">El deporte nos mantiene en forma. Nos mantiene alerta. Nuestra ropa deportiva para hombre y mujer te ofrece las últimas tecnologías, a la altura de tu rendimiento, para que superes tu mejor marca personal. </p>
+    <input class="main__article--button" type="button" value="Comprar" />
+  </article>
+</section>
+
+<section class="main__section">
+
+  <h3 class="main__section--title1 main__section--title1-item1">
+    ¡Prepáralos con tus marcas favoritas!
+  </h3>
+  <h4 class="main__section--title2 main__section--title2-item2" id="school">vuelta al cole</h4>
+
+  <article class="main__section--article main__section--article-item3">
+    <img class="main__section--article-img" src="./assets/images/lpbts-mod05-img01-desk.png" alt="Es la imagen de mochilas escolares">
+    <p class="main__section--article-p">Mochilas escolares</p>
+  </article>
+
+  <article class="main__section--article main__section--article-item4">
+    <img class="main__section--article-img" src="./assets/images/lpbts-mod05-img04-mob.png" alt="Es la imagen de estuches">
+    <p class="main__section--article-p">Estuches</p>
+  </article>
+
+  <article class="main__section--article main__section--article-item5">
+    <img class="main__section--article-img" src="./assets/images/lpbts-mod05-img03-mob.png" alt="Es la imagen de bolsas de deporte">
+    <p class="main__section--article-p">Bolsas de deporte</p>
+  </article>
+
+  <input class="main__section--button main__section--button-item6" type="button" value="Empezar ahora" />
+</section>
 </main>
