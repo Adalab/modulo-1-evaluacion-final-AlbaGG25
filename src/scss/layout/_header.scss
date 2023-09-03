@@ -1,9 +1,76 @@
-
-.header{
-  background-image: url(../../../public/assets/images/cover.jpeg);
+.header {
+  background-image: url("../images/cover.jpeg");
   background-size: cover;
+  background-position: 82%;
+  height: 100vh;
+  @media all and (min-width:768px){
+    background-position: 80%;
+    background-size: cover;
+    height: 78.4rem;
+  }
+  &__menu--icon {
+    background-color: #6c933e;
+    height: 3.7rem;
+    width: 3.7rem;
+    padding: 1rem; 
+    position: fixed;
+    top: 0;
+    left: 0; 
+  }
+  &__content--scroll {
+    background-color: white;
+    height: 3.82rem;
+    width: 3.82rem;
+    padding: 1rem; 
+    border-radius: 2rem;
+ }
+
+  &__content {
+    padding-top: 40rem;
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem; 
+    @media all and (min-width:768px){
+      padding-top: 41rem;
+      gap: 2rem; 
+    }
 }
 
-.header__menu-icon {
-  background-color: #6c933e;
+  &__content--title{
+    text-transform: uppercase;
+    font-family: "Roboto Slab";
+    font-size: 3rem;
+    line-height: 5rem;
+    word-spacing: 40rem;
+    @media all and (min-width:768px){
+      font-size: 7.5rem;
+      line-height: 10rem;
+    }
+    @media all and (min-width:768px){
+      word-spacing: 60rem;
+    }
 }
+
+  &__content--text{
+    font-family: "Roboto";
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    width: 24.3rem;
+    margin-right: 4.25rem;
+    margin-left: 3.42rem;
+    @media all and (min-width:768px){
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+      width: 34rem;
+  }
+    @media all and (min-width:1280px){
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+      width: 56.7rem;
+  }
+ }
+}
+
