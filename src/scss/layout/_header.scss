@@ -8,7 +8,7 @@
     height: 78.4rem;
   }
   &__menu--icon {
-    background-color: #6c933e;
+    background-color: $color-primary;
     height: 3.7rem;
     width: 3.7rem;
     padding: 1rem; 
@@ -29,45 +29,44 @@
       padding-top: 41rem;
       gap: 2rem; 
     }
-}
-
-  &__content--title{
-    text-transform: uppercase;
-    font-family: $font-titles;
-    font-size: 3rem;
-    line-height: 5rem;
-    word-spacing: 40rem;
-    @media all and (min-width:768px){
-      font-size: 7.5rem;
-      line-height: 10rem;
+    &--title{
+      text-transform: uppercase;
+      font-family: $font-titles;
+      font-size: 3rem;
+      line-height: 5rem;
+      word-spacing: 40rem;
+      @media all and (min-width:768px){
+        font-size: 7.5rem;
+        line-height: 10rem;
+      }
+      @media all and (min-width:768px){
+        word-spacing: 60rem;
+      }
+  }
+  
+    &--text{
+      font-family: $font-text;
+      font-size: 1.6rem;
+      line-height: 1.9rem;
+      width: 24.3rem;
+      margin-right: 4.25rem;
+      margin-left: 3.42rem;
+      @media all and (min-width:768px){
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        width: 34rem;
     }
-    @media all and (min-width:768px){
-      word-spacing: 60rem;
+      @media all and (min-width:1280px){
+        width: 56.7rem;
+    }
+   }
+    &--scroll {
+      background-color: white;
+      height: 3.82rem;
+      width: 3.82rem;
+      padding: 1rem; 
+      border-radius: 2rem;
     }
 }
-
-  &__content--text{
-    font-family: "Roboto";
-    font-size: 1.6rem;
-    line-height: 1.9rem;
-    width: 24.3rem;
-    margin-right: 4.25rem;
-    margin-left: 3.42rem;
-    @media all and (min-width:768px){
-      font-size: 2.4rem;
-      line-height: 2.8rem;
-      width: 34rem;
-  }
-    @media all and (min-width:1280px){
-      width: 56.7rem;
-  }
- }
-  &__content--scroll {
-    background-color: white;
-    height: 3.82rem;
-    width: 3.82rem;
-    padding: 1rem; 
-    border-radius: 2rem;
-  }
 }
 

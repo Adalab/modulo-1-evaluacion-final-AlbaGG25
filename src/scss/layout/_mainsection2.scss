@@ -69,10 +69,10 @@
   &--button {
     width: 18.4rem; 
     height: 4.73rem; 
-    background-color: #6c933e; 
+    background-color: $color-primary; 
     color: white;
     border-radius: 2.25rem;
-    font-family: "Roboto";
+    font-family: $font-text;
     font-weight: 500;
     font-size: 2rem;
     line-height: 4.5rem;
