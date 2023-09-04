@@ -4,8 +4,7 @@
   background-position: 82%;
   height: 100vh;
   @media all and (min-width:768px){
-    background-position: 80%;
-    background-size: cover;
+    background-position: 75%;
     height: 78.4rem;
   }
   &__menu--icon {
@@ -17,13 +16,6 @@
     top: 0;
     left: 0; 
   }
-  &__content--scroll {
-    background-color: white;
-    height: 3.82rem;
-    width: 3.82rem;
-    padding: 1rem; 
-    border-radius: 2rem;
- }
 
   &__content {
     padding-top: 40rem;
@@ -41,7 +33,7 @@
 
   &__content--title{
     text-transform: uppercase;
-    font-family: "Roboto Slab";
+    font-family: $font-titles;
     font-size: 3rem;
     line-height: 5rem;
     word-spacing: 40rem;
@@ -67,10 +59,15 @@
       width: 34rem;
   }
     @media all and (min-width:1280px){
-      font-size: 2.4rem;
-      line-height: 2.8rem;
       width: 56.7rem;
   }
  }
+  &__content--scroll {
+    background-color: white;
+    height: 3.82rem;
+    width: 3.82rem;
+    padding: 1rem; 
+    border-radius: 2rem;
+  }
 }
 

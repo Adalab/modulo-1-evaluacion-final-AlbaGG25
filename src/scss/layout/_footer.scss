@@ -4,9 +4,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: space-around;
-  @media all and (min-width:768px){
-    justify-content: space-around;
-   }
 
   &__arrow {
     width: 4.5rem;
@@ -76,7 +73,6 @@
   }
 
   &__nav--copy {
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 3rem;
@@ -87,8 +83,6 @@
     list-style: none;
     @media all and (min-width:768px){
       text-align: left;
-      display: flex;
-      flex-direction: column;
       position: absolute;
       left: -80%;
       width: 15.9rem; 
