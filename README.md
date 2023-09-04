@@ -4,7 +4,7 @@
 
 Este proyecto es una página web realizada para un empresa de productos deportivos. Se ha creado a partir del Adalab Starter Kit, una plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas. 
 
-El proyecto contiene información básica acerca de los productos y permite interacturar con ella: dispone de botones que te permiten navegar más fácilmente por la web y de enlaces que te llevan a otras páginas. 
+El proyecto contiene información básica de la página principal y permite interacturar con ella: dispone de botones que te permiten navegar más fácilmente por la web y de enlaces que te llevan a otras páginas. 
 
 ##Funcionalidades del proyecto
 
@@ -14,7 +14,7 @@ El proyecto contiene información básica acerca de los productos y permite inte
 
 `Funcionalidad 3`: el botón de flecha en el footer te lleva de vuelta al inicio de la página.
 
-`Funcionalidad 4`: todos los enlaces del pie te redigigen a la página de https://adalab.es
+`Funcionalidad 4`: todos los enlaces del pie te redirigen a la página de https://adalab.es
 
 `Funcionalidad 5`: el botón de menú, al inicio de la página, te redirige a https://adalab.es
 
